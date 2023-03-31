@@ -1,5 +1,5 @@
 const {Schema, model} = require ('mongoose');
-
+//Schema de usuario
 const usersSchema= new Schema(
     {
     user: {type: String, required:true},
